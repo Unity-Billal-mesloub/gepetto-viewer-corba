@@ -1,9 +1,8 @@
 # CORBA server/client for the Graphical Interface of Pinocchio and HPP
 
 [![Building Status](https://travis-ci.org/gepetto/gepetto-viewer-corba.svg?branch=master)](https://travis-ci.org/gepetto/gepetto-viewer-corba)
-[![Pipeline status](https://gitlab.laas.fr/gepetto/gepetto-viewer-corba/badges/master/pipeline.svg)](https://gitlab.laas.fr/gepetto/gepetto-viewer-corba/commits/master)
 [![Coverage report](https://gitlab.laas.fr/gepetto/gepetto-viewer-corba/badges/master/coverage.svg?job=doc-coverage)](https://gepettoweb.laas.fr/doc/gepetto/gepetto-viewer-corba/master/coverage/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/Unity-Billal-mesloub/black)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gepetto/gepetto-viewer-corba/master.svg)](https://results.pre-commit.ci/latest/github/gepetto/gepetto-viewer-corba)
 
 
@@ -196,7 +195,7 @@ See [hpp-gui] and [hpp-plot] for examples.
 To install `gepetto-gui` you just have to follow the installation step at the top of this page.
 
 ### PythonQt
-gepetto-gui offers the possibility to develop plugins in python. To do so, you must install PythonQt by following the instructions here: https://github.com/jmirabel/PythonQt#readme
+gepetto-gui offers the possibility to develop plugins in python. To do so, you must install PythonQt by following the instructions here: https://github.com/Unity-Billal-mesloub/PythonQt#readme
 
 ### Python 3
 This section describes the procedure to get bindings for Python 3.
@@ -275,7 +274,4 @@ If you have many files, you may run that at the root of the meshes subdirectorie
 find ${root_of_meshes_directory} -iname "*.dae" -type f -exec osgconv {} {}.osg \;
 ```
 
-[HPP]:http://projects.laas.fr/gepetto/index.php/Software/Hpp
-[remoteimu]:https://github.com/jmirabel/remoteimu
-[hpp-gui]:https://github.com/jmirabel/hpp-gui
-[hpp-plot]:https://github.com/jmirabel/hpp-plot
+
